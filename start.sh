@@ -12,6 +12,7 @@ then
     echo "1.NachoSpigot"
     echo "2.Spigot"
     echo "3.PaperMC"
+    echo "4.Bungeecord"
 
     read Manual
 
