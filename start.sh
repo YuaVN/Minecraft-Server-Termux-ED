@@ -38,10 +38,17 @@ fi
 
 fi
 
+
+ if [ $Manual = 4 ];
+    then
+
+    java -jar BungeeServer/BungeeCord.jar
+
+
 fi
 
 if [ $wbr1 = 2 ];
-then
+   then
 
     if [ -d NachoServer  ];
     then
@@ -63,11 +70,14 @@ then
 
     echo "Paper Server detected"
     java -jar PaperServer/paper-1.8.8-445.jar
+    
 
     fi
 
+        if [ -d BungeeServer  ];
+    then
 
+    echo "Bungee Server detected"
+    java -jar BungeServer/BungeeCord.jar
 
-
-fi
-
+    fi
