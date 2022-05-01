@@ -40,8 +40,10 @@ fi
     wget $paperlink
 fi
 
+
  if [ $version = 4 ];
     then
     mkdir BungeeServer
     cd BungeeServer
     wget $bungeelink
+fi
